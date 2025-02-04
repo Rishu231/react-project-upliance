@@ -1,0 +1,58 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-align: center; /* Ensures text inside is centered */
+}
+
+.user-form:hover {
+  transform: scale(1.02);
+}
+
+/* Make sure inputs and buttons have consistent width */
+.user-form input,
+.user-form button {
+  width: 80%;  /* Wider input fields for better UI */
+  margin: 10px 0;
+}
+
+/* Style input fields */
+.user-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.user-form input:focus {
+  border-color: rgb(81, 200, 248);
+  box-shadow: 0 0 5px rgba(81, 200, 248, 0.5);
+}
+
+/* Style button */
+.user-form button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(81, 200, 248), rgb(24, 120, 228));
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-form button:hover {
+  background: linear-gradient(to right, rgb(24, 120, 228), rgb(81, 200, 248));
+  transform: scale(1.05);
+}

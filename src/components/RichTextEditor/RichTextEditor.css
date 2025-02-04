@@ -1,0 +1,27 @@
+/* .editor {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  } */
+  
+  .editor {
+    width: 300px;
+    padding: 0px;
+    margin: 0px auto;
+    border: 8px solid  rgb(232, 242, 250);
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(0, 150, 255, 0); /* Initial transparent */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  .ql-container {
+    height: 90px;
+  }
+  
+  .ql-toolbar {
+    background: #f4f4f4;
+  }
+  
